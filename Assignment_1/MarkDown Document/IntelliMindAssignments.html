@@ -1,0 +1,57 @@
+<h1>IntelliMind Assignments</h1>
+<h2>Assignment 1</h2>
+<h3>Part1 : Pre-process text data</h3>
+<ul>
+<li>
+<p>In Pre-Processing of text data, Pre-Processing of Data is necessary since it may contain various noises and unwanted data(Ex: Spelling Mistakes)</p>
+</li>
+<li>
+<p>So for removing such noises I used some basic python libraries and performed following processing:-</p>
+<pre><code>  Split into Sentences
+  Split into Words
+  Remove all the words that are not alphabetic
+  Remove all the Stop Words
+  Stemming of words
+</code></pre>
+</li>
+<li>
+<p>The above mentioned processing techniques were possible by using the nltk python library</p>
+</li>
+<li>
+<p>After executing the documents in this code all the documents will become noise free.</p>
+</li>
+<li>
+<p>The code for this assignment is attached in the repository named assign_1_1.py</p>
+</li>
+</ul>
+<h3>Part2 : Generate sentiment score for each document [ +ve, -ve, neutral ]</h3>
+<ul>
+<li>
+<p>For generating the sentiment of the data, I used Navie Bayes Classifier</p>
+</li>
+<li>
+<p>For Identifying the positive and negative sentiments of the documents, I trained the Bayes Classifier by creating classes :-</p>
+<pre><code>  positive vocabulary 
+  negative vocabulary
+</code></pre>
+</li>
+<li>
+<p>After training the classes of Bayes Classifier I took input of documents one after another and calculated the sentiment score of each document</p>
+</li>
+<li>
+<p>The result might not be very much accurate since very less dataset was used for training the classes</p>
+</li>
+<li>
+<p>The code for this assignment is attached in the repository named assign_1_2.py</p>
+</li>
+</ul>
+<h3>Part3 : Perform Named Entity Recognition within text data</h3>
+<ul>
+<li>To Perform Named Entity Extraction from the given text document, I used Spacy Library</li>
+<li>Details about this Library can be obtained from the below link</li>
+</ul>
+<p><code>&lt;link&gt;</code> : <a href="https://spacy.io/">https://spacy.io/</a></p>
+<ul>
+<li>Using this Named Extraction of all the text data can be obtained by the program</li>
+<li>The code for this assignment is attached in the repository named assign_1_3.py</li>
+</ul>
